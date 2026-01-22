@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ANTLR4 Generated Files
+build/*.py
+build/*.tokens
+build/*.interp
+build/HLangLexer.py
+build/HLangParser.py
+build/HLangVisitor.py
+build/HLangListener.py
+
+# Test Reports
+reports/
+htmlcov/
+.coverage
+.pytest_cache/
+*.cover
+coverage.xml
+
+# Compiled Java (from runtime)
+src/runtime/*.class
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
